@@ -1,0 +1,16 @@
+.buttonContainer {
+    padding-left: 5rem;
+    margin-top: 2rem;
+    .btn {
+        border: none;
+        display: flex;
+        justify-content: space-around !important;
+    }
+    
+    .primary {
+        background-color: #102753;
+    }
+    .secondary {
+        background-color: #DDA146;
+    }
+}

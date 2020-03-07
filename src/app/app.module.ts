@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewsModule } from '@views/views.module';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +14,10 @@ import { ViewsModule } from '@views/views.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ViewsModule
+    ViewsModule,
+    ReactiveFormsModule
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
